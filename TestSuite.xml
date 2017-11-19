@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+ <!-- <suite name="Test Suite TestNG" verbose="2" parallel="tests" thread-count="5"> -->
+ <!-- <parameter name="browser" value="chrome" /> -->
+ 
+ <suite name="Test Suite TestNG" verbose="2">
+     
+     <test name="Google Test" >
+         <parameter name="browser" value="firefox" />
+    <classes>
+       <class name="dec_27.TC01" />
+    </classes>
+  </test>
+ 
+  <test name="Gmail Test" >
+      <parameter name="browser" value="chrome" />
+    <classes>
+       <class name="dec_27.TC02" />
+    </classes>
+  </test>
+  
+  <test name="FlipKart Test" >
+      <parameter name="browser" value="ie" />
+    <classes>
+       <class name="dec_27.TC03" />
+    </classes>
+  </test> 
+  
+</suite>
+
+    

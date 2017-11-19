@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNgSsuite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="ddf_PropFile.TC01">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="atTest"/>
+        </methods>
+      </class> <!-- ddf_PropFile.TC01 -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [TestNgSsuite] -->

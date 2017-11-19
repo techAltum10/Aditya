@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Test Suite]" parallel="tests">
+  <parameter name="browser" value="abc"/>
+  <test name="Cricinfo Test(failed)" parallel="tests">
+    <classes>
+      <class name="nov_15.TC03">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="atTest03"/>
+        </methods>
+      </class> <!-- nov_15.TC03 -->
+      <class name="nov_15.TC02">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- nov_15.TC02 -->
+      <class name="nov_15.TC01">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- nov_15.TC01 -->
+    </classes>
+  </test> <!-- Cricinfo Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

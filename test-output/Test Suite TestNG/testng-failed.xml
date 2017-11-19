@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Test Suite TestNG]">
+  <parameter name="browser" value="ie"/>
+  <test name="Google Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="dec_27.TC01">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="atTestGoogle" invocation-numbers="0"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC01 -->
+      <class name="dec_27.TC03">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC03 -->
+      <class name="dec_27.TC02">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC02 -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+  <test name="Gmail Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="dec_27.TC01">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC01 -->
+      <class name="dec_27.TC03">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC03 -->
+      <class name="dec_27.TC02">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="atTestGmail" invocation-numbers="0"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- dec_27.TC02 -->
+    </classes>
+  </test> <!-- Gmail Test(failed) -->
+</suite> <!-- Failed suite [Test Suite TestNG] -->
